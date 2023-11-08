@@ -161,3 +161,54 @@ body {
   object-fit: contain;
   height: 100%;
 }
+
+/* Flash Sale */
+.section {
+  margin-top: 14rem;
+  width: 100%;
+  height: 67rem;
+  /* outline: 3px solid red; */
+}
+
+.fs-container {
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #ccc;
+  outline: 1px solid blue;
+}
+
+.fs-header {
+  width: 10rem;
+  height: 4rem;
+  margin-bottom: 3.5rem;
+  outline: 1px solid blue;
+}
+
+.fs-header-rectangle-p {
+  height: 100%;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-align: end;
+  padding-top: 1rem;
+  color: var(--primary-color);
+  border-left: 2rem solid var(--primary-color);
+  border-radius: 0.4rem;
+}
+
+.fs-body {
+  display: flex;
+  gap: 20.8rem;
+  align-items: center;
+}
+
+.fs-body-title {
+  font-weight: 600;
+  font-size: 3.6rem;
+  color: var(--black-color);
+}
+
+.fs-body-countdown {
+  font-weight: 700;
+  font-size: 3.2rem;
+  color: var(--black-color);
+}
