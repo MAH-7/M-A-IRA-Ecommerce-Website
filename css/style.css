@@ -174,14 +174,14 @@ body {
   width: 100%;
   height: 100%;
   border-bottom: 1px solid #ccc;
-  outline: 1px solid blue;
+  /* outline: 1px solid blue; */
 }
 
 .fs-header {
   width: 10rem;
   height: 4rem;
   margin-bottom: 3.5rem;
-  outline: 1px solid blue;
+  /* outline: 1px solid blue; */
 }
 
 .fs-header-rectangle-p {
@@ -231,6 +231,7 @@ body {
 
 .card {
   position: relative;
+  margin-bottom: 4rem;
 }
 
 .card-header {
@@ -283,7 +284,29 @@ body {
 
 .card-body {
   margin-top: 1rem;
+  text-align: left;
+}
+
+.card-title {
+  font-weight: 500;
+  font-size: 1.6rem;
 }
 
 .card-price {
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: var(--primary-color);
+  margin-top: 0.5rem;
+}
+
+.card-ratings {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card-rating-number {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #ccc;
 }
