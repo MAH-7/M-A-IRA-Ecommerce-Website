@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>M/A IRA</title>
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -13,6 +15,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- Top Navbar -->
@@ -98,13 +102,71 @@
         <div class="fs-header">
           <p class="fs-header-rectangle-p">Today’s</p>
         </div>
+
         <div class="fs-body">
           <h3 class="fs-body-title">Flash Sales</h3>
           <p id="demo" class="fs-body-countdown"></p>
         </div>
+
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-header">
+                  <img src="./images/item-1.png" alt="item" class="card-img" />
+                  <div class="card-tag">-40%</div>
+                  <div class="card-icons">
+                    <i class="fa-regular fa-heart card-heart"></i>
+                    <i class="fa-regular fa-eye card-eye"></i>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">HAVIT HV-G92 Gamepads</h3>
+                  <p class="card-price">$120</p>
+                  <div class="card-ratings">
+                    <div class="card-star">
+                      <i
+                        class="fa-solid fa-star fa-2xs"
+                        style="color: #ffad33"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star fa-2xs"
+                        style="color: #ffad33"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star fa-2xs"
+                        style="color: #ffad33"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star fa-2xs"
+                        style="color: #ffad33"
+                      ></i>
+                      <i
+                        class="fa-solid fa-star fa-2xs"
+                        style="color: #ffad33"
+                      ></i>
+                    </div>
+                    <p class="card-rating-number">(88)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+            <div class="swiper-slide">Slide 5</div>
+            <div class="swiper-slide">Slide 6</div>
+            <div class="swiper-slide">Slide 7</div>
+            <div class="swiper-slide">Slide 8</div>
+            <div class="swiper-slide">Slide 9</div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
       </div>
     </section>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
   </body>
 </html>
