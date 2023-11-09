@@ -167,21 +167,18 @@ body {
   margin-top: 14rem;
   width: 100%;
   height: 67rem;
-  /* outline: 3px solid red; */
 }
 
 .fs-container {
   width: 100%;
   height: 100%;
   border-bottom: 1px solid #ccc;
-  /* outline: 1px solid blue; */
 }
 
 .fs-header {
   width: 10rem;
   height: 4rem;
   margin-bottom: 3.5rem;
-  /* outline: 1px solid blue; */
 }
 
 .fs-header-rectangle-p {
@@ -309,4 +306,21 @@ body {
   font-weight: 600;
   font-size: 1.4rem;
   color: #ccc;
+}
+
+/* Flash Sale Button */
+
+.fs-btn {
+  width: 100%;
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.fs-btn-a {
+  font-weight: 500;
+  font-size: 1.6rem;
+  padding: 1.6rem 4.8rem;
+  border-radius: 0.4rem;
+  background: var(--primary-color);
+  color: var(--white-color);
 }
