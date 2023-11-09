@@ -8,7 +8,6 @@
   --dark-1-color: #7d8184;
   --white-color: #fff;
   --white-2-color: #f5f5f5;
-  --hover-primary: #e07575;
 }
 
 html {
@@ -212,37 +211,6 @@ body {
   color: var(--black-color);
 }
 
-.timer {
-  display: flex;
-  justify-content: center;
-  flex-direction: column; /* Align labels and values vertically */
-  align-items: center;
-}
-
-.time-label {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  font-weight: 500;
-  font-size: 1.2rem;
-}
-
-.time-values {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-}
-
-.time-label span,
-.time-values span {
-  font-size: 1rem;
-  margin: 0 10px;
-}
-
-.time-values span {
-  font-size: 2rem;
-}
-
 /* swiper */
 .swiper {
   width: 100%;
@@ -261,7 +229,6 @@ body {
 .card {
   position: relative;
   margin-bottom: 4rem;
-  cursor: pointer;
 }
 
 .card-header {
@@ -356,9 +323,4 @@ body {
   border-radius: 0.4rem;
   background: var(--primary-color);
   color: var(--white-color);
-}
-
-.fs-btn-a:hover {
-  background: var(--hover-primary);
-  transition: 0.5s;
 }
