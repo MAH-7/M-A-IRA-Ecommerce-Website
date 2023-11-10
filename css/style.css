@@ -11,6 +11,10 @@
   --hover-primary: #e07575;
 }
 
+* {
+  /* outline: 1px solid green; */
+}
+
 html {
   font-size: 10px;
 }
@@ -161,6 +165,7 @@ body {
 .header-img img {
   object-fit: contain;
   height: 100%;
+  width: 100%;
 }
 
 /* Flash Sale */
