@@ -485,6 +485,10 @@ body {
   margin-top: 14rem;
 }
 
+.tm-footer-content {
+  cursor: pointer;
+}
+
 .tm-footer-header {
   font-weight: 600;
   font-size: 1.6rem;
@@ -508,6 +512,11 @@ body {
   background: var(--green-color);
   border-radius: 0.4rem;
   padding: 1.6rem 4.8rem;
+  transition: 0.5s;
+}
+
+.tm-footer-btn:hover {
+  background: var(--hover-primary);
 }
 
 .tm-footer-img {
@@ -519,4 +528,49 @@ body {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.section-op {
+  width: 100%;
+  margin-top: 7rem;
+}
+
+.op-container {
+  width: 100%;
+}
+
+.op-header {
+  width: 100%;
+  height: 4rem;
+  margin-bottom: 3.5rem;
+}
+
+.op-header-rectangle-p {
+  height: 100%;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-align: start;
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+  color: var(--primary-color);
+  border-left: 2rem solid var(--primary-color);
+  border-radius: 0.4rem;
+}
+
+.op-body {
+  margin-bottom: 3rem;
+}
+
+.op-body-title {
+  font-weight: 600;
+  font-size: 3.6rem;
+  margin-bottom: 6rem;
+}
+
+.op-footer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  gap: 7rem 3rem;
+  margin-bottom: 13rem;
 }
