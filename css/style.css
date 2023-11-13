@@ -574,3 +574,42 @@ body {
   gap: 7rem 3rem;
   margin-bottom: 13rem;
 }
+
+/* Feature */
+.section-fte {
+  width: 100%;
+  margin-bottom: 7rem;
+  margin-top: 16.8rem;
+}
+
+.fte-container {
+  width: 100%;
+}
+
+.fte-header {
+  width: 100%;
+  height: 4rem;
+  margin-bottom: 3.5rem;
+}
+
+.fte-header-rectangle-p {
+  height: 100%;
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-align: start;
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+  color: var(--primary-color);
+  border-left: 2rem solid var(--primary-color);
+  border-radius: 0.4rem;
+}
+
+.fte-body {
+  margin-bottom: 3rem;
+}
+
+.fte-body-title {
+  font-weight: 600;
+  font-size: 3.6rem;
+  margin-bottom: 6rem;
+}
