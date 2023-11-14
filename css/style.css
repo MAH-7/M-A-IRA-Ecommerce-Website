@@ -676,3 +676,30 @@ body {
 .fte-gallery-4 {
   grid-area: 7/10/13/13;
 }
+
+.fte-services-container {
+  max-width: 94rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  width: 100%;
+  display: grid;
+  gap: 2rem 5rem;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  margin-top: 14rem;
+}
+
+.fte-services-items {
+  text-align: center;
+  width: 100%;
+}
+
+.fte-services-title {
+  font-weight: 600;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.fte-services-p {
+  font-weight: 400;
+  font-size: 1.4rem;
+}
