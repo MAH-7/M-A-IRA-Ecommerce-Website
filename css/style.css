@@ -703,3 +703,41 @@ body {
   font-weight: 400;
   font-size: 1.4rem;
 }
+
+/* Footer */
+.footer {
+  width: 100%;
+  color: var(--white-color);
+  background: var(--black-color);
+}
+
+.footer-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 2rem 3rem;
+  padding: 8rem 0;
+}
+
+.footer-item {
+  width: 100%;
+}
+
+.footer-logo {
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.footer-menu {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.footer-title {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.footer-menu li {
+  margin-top: 1rem;
+}
