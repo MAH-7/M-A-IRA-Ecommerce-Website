@@ -53,3 +53,27 @@ var swiper = new Swiper(".mySwiper", {
     },
   },
 });
+
+// ScrollReveal().reveal(".top-nav", {
+//   origin: "left",
+//   distance: "100rem",
+// });
+
+// ScrollReveal().reveal(".header-img", {
+//   origin: "left",
+//   distance: "100rem",
+// });
+
+// ScrollReveal().reveal(".card", {
+//   origin: "left",
+//   distance: "100rem",
+// });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const navMobile = document.querySelector(".hamburger");
+  const navMenu = document.querySelector(".nav-mobile");
+
+  navMobile.addEventListener("click", function () {
+    navMenu.classList.toggle("active");
+  });
+});
